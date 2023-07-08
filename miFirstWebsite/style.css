@@ -1,0 +1,43 @@
+#entryBox {
+    background-color: white;
+    display: block;
+    width: 353px;
+    height: 30px;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 41%;
+}
+#myFirstButton {
+    color: black;
+    font-family: "lucida consol";
+    width: 100px;
+    height: 25px;
+    display: block;
+
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    cursor: pointer;
+}
+#myFirstButton:hover{
+    width: 105px;
+    height: 30px;
+}
+#TryMe {
+    color: black;
+    font-family: "lucida consol";
+    width: 100px;
+    height: 25px;
+    display: block;
+
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    cursor: pointer;
+}
+#TryMe:hover{
+    width: 105px;
+    height: 30px;
+}
