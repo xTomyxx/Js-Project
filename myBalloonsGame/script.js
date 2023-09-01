@@ -21,7 +21,7 @@ function startGame(pEvent) {
         scoreBoard.textContent = score;
         basketBall = basketBall + 1;
         alert("You should click on the Football balls")
-        endGame()
+        endGame();
 
     }else if (pEvent.target.className == "restartBtn"){
         restartGame();
